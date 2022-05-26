@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h3>Welcome Test1! </h3>
+<h3>Welcome <%=request.getParameter("uname") %></h3>
 <pre>
 <%
 String value = request.getParameter("number");
